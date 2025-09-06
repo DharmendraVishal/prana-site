@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PRANA • Fair‑Launch Payments Coin</title>
+  <meta name="description" content="PRANA (PRNA) — a fair‑launch, CPU/GPU‑mineable, Bitcoin‑style currency for everyday payments and payroll." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style> body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;} .badge{border:1px solid rgba(255,255,255,.3);} .glass{backdrop-filter:saturate(180%) blur(8px);} </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+  <!-- Header -->
+  <header class="sticky top-0 z-30 bg-gray-900 bg-opacity-80 glass border-b border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-9 h-9 rounded-2xl bg-gradient-to-br from-green-400 to-emerald-600 flex items-center justify-center font-extrabold">ॐ</div>
+        <span class="font-extrabold text-xl tracking-tight">PRANA</span>
+        <span class="text-xs px-2 py-0.5 rounded badge">Ticker: PRNA</span>
+      </div>
+      <nav class="hidden md:flex items-center space-x-6 text-sm">
+        <a href="#why" class="hover:text-white text-gray-300">Why PRANA</a>
+        <a href="#how" class="hover:text-white text-gray-300">How it works</a>
+        <a href="#mining" class="hover:text-white text-gray-300">Mine</a>
+        <a href="#wallets" class="hover:text-white text-gray-300">Wallets</a>
+        <a href="#docs" class="hover:text-white text-gray-300">Docs</a>
+        <a href="#faq" class="hover:text-white text-gray-300">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-emerald-700/20 to-gray-900"></div>
+    <div class="max-w-6xl mx-auto px-4 pt-16 pb-20 relative">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">A fair‑launch currency for <span class="text-emerald-400">everyday payments</span>.</h1>
+          <p class="mt-4 text-gray-300 text-lg">PRANA (PRNA) is a CPU/GPU‑mineable, Bitcoin‑style chain with 2‑minute blocks and zero premine — designed for salaries, micro‑payments, and merchant invoices.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#get-started" class="px-5 py-3 bg-emerald-500 hover:bg-emerald-600 rounded-xl font-semibold">Get started</a>
+            <a href="#docs" class="px-5 py-3 bg-gray-800 hover:bg-gray-700 rounded-xl font-semibold">Read the docs</a>
+          </div>
+          <div class="mt-4 text-xs text-gray-400">No ICO • No premine • MIT License • Open source</div>
+        </div>
+        <div class="md:pl-10">
+          <div class="rounded-2xl border border-gray-800 bg-gray-800/40 p-6">
+            <div class="grid grid-cols-2 gap-4 text-sm">
+              <div>
+                <div class="text-gray-400">Consensus</div>
+                <div class="font-semibold">Proof‑of‑Work (yespower)</div>
+              </div>
+              <div>
+                <div class="text-gray-400">Block time</div>
+                <div class="font-semibold">~2 minutes</div>
+              </div>
+              <div>
+                <div class="text-gray-400">Supply cap</div>
+                <div class="font-semibold">84,000,000 PRNA</div>
+              </div>
+              <div>
+                <div class="text-gray-400">Block subsidy</div>
+                <div class="font-semibold">40 → halving / ~4y</div>
+              </div>
+              <div>
+                <div class="text-gray-400">Address</div>
+                <div class="font-semibold">Bech32 (pr…)</div>
+              </div>
+              <div>
+                <div class="text-gray-400">Launch model</div>
+                <div class="font-semibold">Fair launch</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why -->
+  <section id="why" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-extrabold">Why PRANA</h2>
+    <div class="grid md:grid-cols-3 gap-6 mt-6">
+      <div class="p-6 rounded-2xl border border-gray-800 bg-gray-800/40">
+        <h3 class="font-semibold">Built for payroll & invoices</h3>
+        <p class="text-gray-300 mt-2">2‑minute blocks, SegWit/Taproot from genesis, and stable per‑block difficulty (LWMA) make payments fast and predictable.</p>
+      </div>
+      <div class="p-6 rounded-2xl border border-gray-800 bg-gray-800/40">
+        <h3 class="font-semibold">Truly fair</h3>
+        <p class="text-gray-300 mt-2">No premine, no dev tax. Anyone can mine from block 1 using commodity hardware.</p>
+      </div>
+      <div class="p-6 rounded-2xl border border-gray-800 bg-gray-800/40">
+        <h3 class="font-semibold">Simple & secure</h3>
+        <p class="text-gray-300 mt-2">Bitcoin‑style UTXO model with minimal attack surface and well‑understood rules.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" class="max-w-6xl mx-auto px-4 py-16 border-t border-gray-800">
+    <h2 class="text-3xl font-extrabold">How PRANA works</h2>
+    <ol class="mt-6 space-y-4 list-decimal list-inside text-gray-300">
+      <li>Generate a wallet and address (desktop or mobile light wallet).</li>
+      <li>Create a transaction paying a merchant, employee, or supplier.</li>
+      <li>Nodes validate signatures and rules then relay to miners.</li>
+      <li>Miners include it in the next block; confirmations build every ~2 minutes.</li>
+      <li>Finality for everyday payments ~1–3 blocks; higher‑value transfers ~6+.</li>
+    </ol>
+  </section>
+
+  <!-- Mining -->
+  <section id="mining" class="max-w-6xl mx-auto px-4 py-16 border-t border-gray-800">
+    <h2 class="text-3xl font-extrabold">Mine PRANA</h2>
+    <p class="text-gray-300 mt-2">CPU/GPU mining with the <strong>yespower</strong> algorithm. Start solo, then join a community pool or P2Pool.</p>
+    <div class="mt-6 grid md:grid-cols-2 gap-6 text-sm">
+      <div class="p-6 rounded-2xl border border-gray-800 bg-gray-800/40">
+        <h3 class="font-semibold">Quick start (solo)</h3>
+        <pre class="mt-3 bg-black/40 p-3 rounded-lg overflow-x-auto"><code>pranad -server=1 -rpcuser=user -rpcpassword=pass
+prana-cli createwallet mine
+prana-cli getnewaddress
+# Use cpuminer-multi (yespower) pointing to your node or local stratum</code></pre>
+      </div>
+      <div class="p-6 rounded-2xl border border-gray-800 bg-gray-800/40">
+        <h3 class="font-semibold">Pools (community)</h3>
+        <p class="mt-2 text-gray-300">Once live, PRANA aims to be listed by open Yiimp/P2Pool operators. We recommend Stratum V2 where available.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wallets / Downloads -->
+  <section id="wallets" class="max-w-6xl mx-auto px-4 py-16 border-t border-gray-800">
+    <h2 class="text-3xl font-extrabold">Wallets & Downloads</h2>
+    <p class="text-gray-300 mt-2">Reproducible binaries and source will be published on GitHub at launch. Mobile light wallets will follow.</p>
+    <div class="mt-6 grid md:grid-cols-3 gap-6 text-sm">
+      <div class="p-6 rounded-2xl border border-gray-800 bg-gray-800/40"><h3 class="font-semibold">Node (desktop)</h3><p class="mt-2 text-gray-300">Full node + CLI wallet for Windows, macOS, Linux.</p></div>
+      <div class="p-6 rounded-2xl border border-gray-800 bg-gray-800/40"><h3 class="font-semibold">Explorer</h3><p class="mt-2 text-gray-300">Public explorer for transparency and integrations.</p></div>
+      <div class="p-6 rounded-2xl border border-gray-800 bg-gray-800/40"><h3 class="font-semibold">Mobile (beta)</h3><p class="mt-2 text-gray-300">Light wallet + check‑in mining app (Android/iOS).</p></div>
+    </div>
+  </section>
+
+  <!-- Docs -->
+  <section id="docs" class="max-w-6xl mx-auto px-4 py-16 border-t border-gray-800">
+    <h2 class="text-3xl font-extrabold">Docs</h2>
+    <ul class="mt-6 space-y-2 list-disc list-inside text-gray-300">
+      <li>Whitepaper (payments focus, no premine)</li>
+      <li>Protocol spec (UTXO, 2‑min blocks, yespower, LWMA)</li>
+      <li>Mining guides (solo, P2Pool, Yiimp)</li>
+      <li>Merchant & payroll integration (invoices, pay cycles)</li>
+    </ul>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="max-w-6xl mx-auto px-4 py-16 border-t border-gray-800">
+    <h2 class="text-3xl font-extrabold">FAQ</h2>
+    <div class="mt-6 space-y-6">
+      <details class="p-4 rounded-xl border border-gray-800 bg-gray-800/40"><summary class="font-semibold cursor-pointer">How is PRANA different?</summary><p class="mt-2 text-gray-300">Fair‑launch PoW, short block times, and simple design focused on payroll and micro‑payments — not DeFi speculation.</p></details>
+      <details class="p-4 rounded-xl border border-gray-800 bg-gray-800/40"><summary class="font-semibold cursor-pointer">Who decides the coin’s value?</summary><p class="mt-2 text-gray-300">Markets do — based on utility (real payments), supply schedule, liquidity, miner costs, and demand from users and organizations.</p></details>
+      <details class="p-4 rounded-xl border border-gray-800 bg-gray-800/40"><summary class="font-semibold cursor-pointer">Is there any premine or dev tax?</summary><p class="mt-2 text-gray-300">No. Everyone competes on equal terms. Funding comes from community grants/donations if needed.</p></details>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-6 text-sm text-gray-400">
+      <div>
+        <div class="font-semibold text-gray-200">PRANA • Payments for everyone</div>
+        <div class="mt-2">Open‑source • MIT License • No ICO • No premine</div>
+      </div>
+      <div class="md:text-right">
+        <a href="#" class="hover:text-white">GitHub</a>
+        <span class="opacity-40 mx-2">•</span>
+        <a href="#" class="hover:text-white">Discord</a>
+        <span class="opacity-40 mx-2">•</span>
+        <a href="#" class="hover:text-white">Explorer</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
